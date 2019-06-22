@@ -16,10 +16,6 @@ npm i @micburks/jspm-loader
 
 *NOTE: This is only supported in Node 12+*
 
-```bash
-node --experimental-modules --loader @micburks/jspm-loader index.js
-```
-
 You'll want some `package.json` fields. `"type": "module"` removes the need for
 `.mjs` extensions.
 
@@ -32,12 +28,17 @@ You'll want some `package.json` fields. `"type": "module"` removes the need for
 }
 ```
 
-Then you can...
-
 ```js
+// index.js
 import ReactDOMServer from 'https://dev.jspm.io/react-dom/server';
 
 ReactDOMServer.renderToString(/* ... */);
+```
+
+Then you can...
+
+```bash
+node --experimental-modules --loader @micburks/jspm-loader index.js
 ```
 
 ### Troubleshooting
