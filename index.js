@@ -1,4 +1,4 @@
-import jspmResolve from './jspm-loader.js'
+import jspmResolve from './loader.js'
 
 const baseURL = new URL('file://');
 baseURL.pathname = `${process.cwd()}/`;
