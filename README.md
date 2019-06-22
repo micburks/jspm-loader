@@ -20,16 +20,15 @@ npm i @micburks/jspm-loader
 node --experimental-modules --loader @micburks/jspm-loader index.js
 ```
 
-You'll want some `package.json` fields
+You'll want some `package.json` fields. `"type": "module"` removes the need for
+`.mjs` extensions.
 
 ```json
 {
-  // ...
-  "type": "module", // Removes the need for `.mjs` extensions
+  "type": "module",
   "engines": {
     "node": "^12.0.0"
-  },
-  // ...
+  }
 }
 ```
 
