@@ -6,7 +6,9 @@
   "main": "index.js",
   "module": "index.js",
   "bin": {},
-  "scripts": {},
+  "scripts": {
+    "test": "./test.js"
+  },
   "keywords": [
     "node",
     "jspm"
@@ -19,7 +21,10 @@
   "author": "Mickey Burks",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "puppeteer": "^1.18.0",
+    "serve-handler": "^6.0.2"
+  },
   "files": [
     "index.js",
     "loader.js"

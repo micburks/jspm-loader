@@ -22,6 +22,7 @@ async function render () {
   } else {
     const {default: ReactDOM} = await import('https://dev.jspm.io/react-dom');
     const root = document.createElement('div');
+    root.id = 'root';
     document.body.appendChild(root);
     ReactDOM.render(
       html`<${Root}/>`,
