@@ -2,8 +2,6 @@
 
 Node loader for runtime dependency resolution from jspm.io
 
-> It's about time for modules
-
 *NOTE: I highly suggest not using this.*
 
 ### Installation
