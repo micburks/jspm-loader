@@ -1,4 +1,4 @@
-#!/usr/bin/env node --experimental-modules
+#!/usr/bin/env node
 import puppeteer from 'puppeteer'
 import handler from 'serve-handler';
 import http from 'http';

@@ -4,8 +4,6 @@
   "description": "Node loader for runtime dependency resolution from jspm.io",
   "type": "module",
   "main": "index.js",
-  "module": "index.js",
-  "bin": {},
   "scripts": {
     "test": "./test.js"
   },
@@ -30,6 +28,6 @@
     "loader.js"
   ],
   "engines": {
-    "node": "^12.0.0"
+    "node": ">=13.2.0"
   }
 }

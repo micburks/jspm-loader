@@ -2,11 +2,11 @@
   "name": "test",
   "type": "module",
   "engines": {
-    "node": "^12.0.0"
+    "node": ">=13.2.0"
   },
   "scripts": {
     "clean": "rm -rf ./.loader_cache/* /tmp/loader-cache/jspm",
     "start": "npx serve",
-    "test": "node --experimental-modules --loader ../index.js ./test.js"
+    "test": "node --loader ../index.js ./test.js"
   }
 }

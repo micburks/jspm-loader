@@ -1,7 +1,7 @@
 import jspmResolve from './loader.js'
+import {URL, pathToFileURL} from 'url';
 
-const baseURL = new URL('file://');
-baseURL.pathname = `${process.cwd()}/`;
+const baseURL = pathToFileURL(process.cwd()).href;
 const relativeRegex = /^\.{0,2}[/]/;
 
 export async function resolve(
