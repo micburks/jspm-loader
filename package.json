@@ -1,6 +1,6 @@
 {
   "name": "@micburks/jspm-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node loader for runtime dependency resolution from jspm.io",
   "type": "module",
   "main": "index.js",
